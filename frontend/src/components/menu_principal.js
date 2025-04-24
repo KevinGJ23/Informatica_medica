@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MenuPrincipal = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-light bg-info py-3">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">Sistema de Pacientes</Link>
         <button
@@ -20,16 +20,16 @@ const MenuPrincipal = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link text-light" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ingresar">Ingresar Paciente</Link>
+              <Link className="nav-link text-light" to="/ingresar">Ingresar Paciente</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/visualizacion">Ver Paciente</Link>
+              <Link className="nav-link text-light" to="/visualizacion">Ver Paciente</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/editar">Editar Paciente</Link>
+              <Link className="nav-link text-light" to="/editar">Editar Paciente</Link>
             </li>
           </ul>
         </div>
